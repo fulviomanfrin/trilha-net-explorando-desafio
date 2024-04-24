@@ -18,10 +18,10 @@ hospedes.Add(p2);
 //Para teste da hipótese de excesso de hóspedes descomentar linhas 11, 12, 16 e 17
 
 // Cria a suíte
-Suite suite = new Suite(tipoSuite: "Premium", capacidade: 3, valorDiaria: 80.57m);
+Suite suite = new Suite(tipoSuite: "Premium", capacidade: 3, valorDiaria: 100.00m);
 
 // Cria uma nova reserva, passando a suíte e os hóspedes
-Reserva reserva = new Reserva(diasReservados: 10);
+Reserva reserva = new Reserva(diasReservados: 8);
 reserva.CadastrarSuite(suite);
 reserva.CadastrarHospedes(hospedes);
 
